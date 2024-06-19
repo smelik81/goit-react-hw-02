@@ -1,4 +1,10 @@
-function Feedback({ good, bad, neutral, totalFeedback, positiveFeedback }) {
+export default function Feedback({
+  good,
+  bad,
+  neutral,
+  totalFeedback,
+  positiveFeedback,
+}) {
   return (
     <div>
       <p>Good: {good}</p>
@@ -9,5 +15,3 @@ function Feedback({ good, bad, neutral, totalFeedback, positiveFeedback }) {
     </div>
   );
 }
-
-export default Feedback;
